@@ -1,0 +1,26 @@
+{
+  "name": "basixstation",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^1.1.3",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.3",
+    "astro": "^3.4.3"
+  },
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "@astrojs/language-server": "^2.5.4",
+    "@astrojs/ts-plugin": "^1.3.1",
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.1",
+    "typescript": "^5.2.2"
+  }
+}
